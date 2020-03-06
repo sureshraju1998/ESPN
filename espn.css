@@ -1,0 +1,525 @@
+.container1
+{
+	width:100%;
+}
+.block1
+{
+	width:100%;
+	width:32%;
+	border:1px solid black;
+	float:left;
+	color:black;
+}
+.block2
+{
+	width:100%;
+	width:62%;
+	border:1px solid black;
+	float:left;
+}
+.block3
+{
+	width:100%;
+	width:5.55%;
+	float:right;
+	border:1px solid black;
+	float:right;
+}
+.block2 #box
+{
+	width:13%;
+	float:left;
+	background-color:white;
+}
+.block3 #box
+{
+	width:95%;
+	float:left;
+}
+#box
+{
+	width:30.466%;
+	background-color:#EBECE8;
+	padding:5px;
+	float:left;
+	max-height:51px;
+	height:100%;
+	border:1px solid black;	
+}
+.formula,.date
+{
+	width:96px;
+	height:27px;
+	margin-top:10px;
+	margin-left:4px;
+	border:1px solid black;
+	border-radius:10px;
+	padding-top:5px;
+	padding-left:5px;
+	background-color:#e6e6ff;
+}
+.formula a,.date a
+{
+	color:black;
+}
+.container:after
+{
+	content:"";
+	clear:"both";
+}
+
+
+
+
+
+
+
+.container2
+{
+	width:100%;
+	border:1px solid black;
+	height:100%;
+	max-height:35px;
+	background-color:black;
+}
+.block11
+{
+	width:4%;
+	border:1px solid black;
+	float:left;
+	height:100%;
+	max-height:35px;
+}
+.block12
+{
+	width:67.55%;
+	float:left;
+	border:1px solid black;
+	height:100%;
+	max-height:35px;
+}
+.block13
+{
+	width:28%;
+	float:right;
+	border:1px solid black;
+	height:100%;
+	max-height:35px;
+}
+.sony
+{
+	background-color:black;
+	color:white;
+}
+.espn
+{
+	background-color:red;
+	color:black;
+}
+a
+{
+	text-decoration:none;
+	color:red;
+}
+.headbox
+{
+	float:left;
+	padding:9px;
+	padding-right:19px;
+}
+.title
+{
+	padding-left:15px;
+	padding-bottom:10px;
+}
+.headbox a
+{
+	color:white;
+}
+a
+{
+	color:black;
+}
+
+
+
+
+.hlinks,.hlinks2
+{
+	border-left:24px;
+	padding-left:15px;
+}
+.hlinks:hover
+{
+	color:black;
+	width:180px;
+	background-color:red;
+	border-radius:10px;
+}
+.hlinks2:hover
+{
+	color:black;
+	background-color:white;
+	border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+.circket,.football,.nba,.f1,.tennis,.nfl,.others
+{
+	display:flex;
+	background-color:#E0E7E1;
+	border:2px solid black;
+}
+.row1
+{
+	width:199px;
+	background-color:white;
+	height:222px;
+	line-height:35px;
+	font-size:20px;
+}
+.row5,.row9,.row13,.row14,.row15,
+.row20,.row21,.row22
+{
+	width:199px;
+	background-color:white;
+	height:332px;
+	line-height:35px;
+	font-size:20px;
+}
+.row2,.row3,.row4,
+.row6,.row7,.row8,
+.row10,.row11,.row12,
+.row16,.row17,.row18,.row19
+{
+	width:200px;
+	line-height:25px;
+	font-size:17px;
+}
+	
+
+
+
+
+
+	
+	
+.row23
+{
+	width:196px;
+	line-height:40px;
+	font-size:20px;
+	border:2px solid black;
+	background-color:white;
+}	
+.info
+{
+	border:2px solid black;
+	width:0px;
+	background-color:white;
+}
+.infolink
+{
+	padding-left:30px;
+}
+ul li ul li .info
+{
+	position: absolute;
+	z-index: 1;
+	padding-top:8px;
+	top: 41px;
+	right: 38%;
+	width: 288px;
+	height:259px;
+	padding:15px;
+	line-height:33px;
+}	
+.infolink:hover
+{
+	background-color:#E0E7E1;
+	border-radius:10px;
+}
+.info span
+{
+	padding-right:13px;
+}
+.info span:hover
+{
+	color:blue;
+}
+
+
+
+
+
+
+.body
+{
+	background-color:#E0E7E1;
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+ul li
+{
+	float:left;
+	position: relative;
+}
+ul li a
+{
+	text-decoration:none;
+	display:block;
+}
+ul li a:hover 
+{
+	color:;
+}
+ul li ul li 
+{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	padding-top:41px;
+	top: -5px;
+	left: 38%;
+}
+ul li:hover ul li 
+{
+	visibility: visible;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+.container3
+{
+	width:100%;
+	border:1px solid black;
+	float:left;
+	height:100%;
+	max-height:35px;
+	background-color:white;
+}
+
+
+
+.block21
+{
+	float:left;
+	width:100%;
+	max-width:4%;
+	padding:9px;
+	padding-left:30px;
+}
+
+
+
+
+
+.block22
+{
+	float:left;
+}	
+.circketheadbox:hover,.footballheadbox:hover,.nbaheadbox:hover,.f1headbox:hover,
+.tennisheadbox:hover,.nflheadbox:hover
+{
+	border-bottom:3px solid red;
+}	
+
+
+
+.circketheadbox
+{
+	float:left;
+	padding:9px;
+	padding-right:15px;
+}
+.footballheadbox,.nbaheadbox,.f1headbox,.tennisheadbox
+{
+	float:left;
+	padding:8px;
+	padding-left:18px;
+}
+.nflheadbox
+{
+	float:left;
+	padding-right:15px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+
+
+
+.circketseries,.circketteams,
+.footballteams,.footballtournments,
+.nbastats,.nbateams,.nbatrade,.nbamore,
+.f1standings,.f1races,.f1teams,.f1drivers,.f1stats,
+.nflteams
+{
+	display:flex;
+	background-color:white;
+	border:2px solid black;
+}
+
+
+
+
+.circketseries1,.circketseries2
+{
+	width:250px;
+	height:161px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.circketteams1,.circketteams2
+{
+	width:160px;
+	height:180px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.footballteam1,.footballteam2
+{
+	width:235px;
+	height:348px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.footballtournment1,.footballtournment2
+{
+	width:182px;
+	height:142px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.nbastats1
+{
+	width:200px;
+	height:142px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.nbateam1,.nbateam2,.nbateam3
+{
+	width:203px;
+	background-color:#E0E7E1;
+	height:418px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.nbatrade1
+{
+	width:235px;
+	height:69px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.nbamore1,.nbamore2
+{
+	width:158px;
+	height:207px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.f1standing1,.f1standing2
+{
+	width:148px;
+	height:172px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.f1race1,.f1race2
+{
+	width:179px;
+	height:380px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.f1team1,.f1team2
+{
+	width:149px;
+	height:172px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.f1driver1,.f1driver2
+{
+	width:185px;
+	height:347px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.f1stats1
+{
+	width:208px;
+	height:100px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+.nflteam1,.nflteam2,.nflteam3,.nflteam4
+{
+	width:207px;
+	height:346px;
+	line-height:35px;
+	font-size:20px;
+	padding:10px;
+}
+
+
+
+
+.circketseries1links:hover,.circketteams1links:hover,
+.footballteamlink:hover,.footballtournmentlink:hover,
+.nbastatslink:hover,.nbatradelink:hover,.nbamorelink:hover,
+.f1standinglinks:hover,.f1racelinks:hover,.f1teamlinks:hover,.f1driverlinks:hover,.f1statslink:hover,
+.nflteamlinks:hover
+{
+	color:black;
+	background-color:red;
+	border-radius:10px;
+}
+.nbateamlink:hover
+{
+	color:black;
+	background-color:white;
+	border-radius:10px;
+}
